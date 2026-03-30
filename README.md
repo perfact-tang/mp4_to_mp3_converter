@@ -41,3 +41,9 @@ python main.py
 3.  変換設定を確認し、「変換開始」ボタンをクリックします。
 4.  変換されたMP3ファイルは、元のファイルと同じフォルダ（または指定した出力先）に保存されます。
 
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py 
